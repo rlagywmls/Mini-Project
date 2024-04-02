@@ -1,0 +1,47 @@
+body {
+    margin: 0;
+}
+.wrap {
+    margin: 50px auto 0 auto;
+    width: 500px;
+    height: 500px;
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+}
+.header {
+    padding: 1em;
+    text-align: center;
+}
+.header h1 {
+    margin-top: 1em;
+}
+.result-box {
+    margin-top: 5em;
+    text-align: center;
+}
+.result-box span {
+    font-size: 20px;
+}
+.input-box {
+    padding: 1em;
+}
+.chance {
+    text-align: center;
+}
+.button-box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.button-box button {
+    margin-top: 20px;
+    width: 250px;
+}
+
+@media (max-width: 768px) {
+    .wrap {
+       box-shadow: none;
+       width: 390px;
+       margin-top: 100px;
+    }
+}
